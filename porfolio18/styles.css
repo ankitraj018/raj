@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(48, 17, 3);
+    background-color: rgba(241, 248, 239, 0.938);
+}
+.left{
+    font-size: 1.5rem;
+}
+
+nav{
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+    font-style: calc();
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(5, 3, 22);
+    background-size: cover;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+#element{
+    color: rgb(255, 69, 0);
+    font-style: initial;
+    
+}
+nav a:hover{
+    color: rgb(236, 233, 11);
+    font-size: 1.4em;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Firstsection div{
+    width: 30%;
+}
+.Firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.yellow{
+    color: rgb(143, 12, 12);
+}
+
+.leftsection{
+    font-size: 1.7rem;
+    margin: 70px;
+    margin-right: 50%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    color: rgb(33, 5, 58);
+}
+.rightsection img{
+
+    position: absolute;
+    top: 150;
+    right: 60;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 400;
+    max-height: 355;
+    text-align: center;
+    gap: 5px;
+    object-fit: cover;
+    border: 2px solid rgb(85, 5, 5);
+    transition: all ease-out 1s;
+    box-shadow: 0 0 100px rgb(245, 191, 242);
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 3px solid rgb(248, 9, 61);
+}
+.rightsection img:hover{
+    width: 100;
+    box-shadow: 0 0 100px rgb(138, 7, 24);
+    box-sizing: 100px;
+    box
+}
+
+h1:hover{
+    color: rgb(80, 6, 76);
+    size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-display: 50px;
+    font-size: x-large;
+    margin:top;
+    position: relative;
+    margin-top: 2opx;
+}
+h2{
+    text-align: center;
+    font-size: medium;
+    border: top right radius 20px; ;
+    color: rgb(59, 2, 37);
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 460;
+    left: 90;
+
+}
+.ank{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 520;
+    left: 90;
+    color: #3f0c24;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    flex-direction: inherit;
+    font: 2em sans-serif;
+    
+}
+
+
+.social-icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.4s ease;
+
+
+}
+
+.facebook {
+    background-color: #1a4cb8;
+    top: 120%;
+}
+
+.twitter {
+    background-color: #2ea0e7;
+}
+
+.instagram {
+    background-color: #db2446;
+}
+
+.linkedin {
+    background-color: #0a6599;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}

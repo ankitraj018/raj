@@ -1,0 +1,44 @@
+<html>
+       <title>Chatbot</title>
+    <style>
+        .chat-container {
+            border: 5px solid #32ecbe;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: 0 auto;
+        }
+        .chat-messages {
+            height: 300px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body bgcolor="red">
+    <div class="chat">
+        <div class="chat-messages" id="chat-messages">
+            <p>Welcome! How can I help you today?</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById('user-input').value;
+            if (userInput.trim() === '') return;
+            appendMessage('user', userInput);
+            var response = "You said: " + userInput;
+            appendMessage('bot', response);
+            document.getElementById('user-input').value = '';
+        }
+
+        function appendMessage(sender, message) {
+            var chatMessages = document.getElementById('chat-messages');
+            var newMessage = document.createElement('p');
+            newMessage.textContent = sender + ': ' + message;
+            chatMessages.appendChild(newMessage);
+        }
+    </script>
+</body>
+</html>
