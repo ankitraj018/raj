@@ -1,0 +1,49 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+  }
+  body{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: calc();
+    background-color: blueviolet;
+    background-size: cover;
+    color: #db0a50;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: large;
+  }
+  h1{
+    color: aliceblue;
+    background-color: #010824;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .buttons {
+    
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    height: 50;
+    width: 50;
+    color:rgb(5, 2, 26);
+    padding: 20px;
+    font-size: 1.25rem;
+
+
+
+    
+  }
+  
