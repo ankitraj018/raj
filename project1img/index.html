@@ -1,0 +1,35 @@
+<html>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="img">
+    <h1> This is Gallery and collection of various types of pic</h1><br>
+
+  <div class="img-pic">
+    <img src="img1.jpg"Image 1" onclick="openLightbox(0)">
+  </div>
+  <div class="img-pic">
+    <img src="img4.jpg" alt="Image 2" onclick="openLightbox(1)">
+  </div>
+  <div class="img-pic">
+    <img src="img3.jpg" alt="Image 3" onclick="openLightbox(2)">
+  </div>
+  <div class="img-pic">
+    <img src="img5.jpg" alt="Image 4" onclick="openLightbox(3)">
+  </div>
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" src="" alt="Large Image">
+  <div class="nav-buttons">
+    <button onclick="prevImage()">❮</button>
+    <button onclick="nextImage()">❯</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
